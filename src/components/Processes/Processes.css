@@ -1,0 +1,52 @@
+tbody tr:hover {
+    color: #ffffff;
+    background-color: #2b8cff!important;
+    background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, .4) 0, rgba(255, 255, 255, 0) 100%);
+}
+
+.paging-row, .paging-row:hover {
+    background-color: #ffffff!important;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th>.row>span {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+th, th>.row {
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+th.sbo-width-sm {
+    width: 7.5%;
+}
+
+th.sbo-width-md {
+    width: 9.5%;
+}
+
+td {
+    word-wrap: break-word;
+}
+
+.sort-icon {
+    user-select: none;
+    font-size: x-small;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 5px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.active-sort-icon {
+    color: #09f;
+}
